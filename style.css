@@ -166,7 +166,7 @@ footer {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #6f4e37;
+    border-color: #4e392b;
     box-shadow: 0 0 5px rgba(111, 78, 55, 0.3);
     outline: none;
 }
