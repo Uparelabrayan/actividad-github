@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+        </nav>
+    </header>
+
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80');">
+        <div class="overlay">
+            <h2>Bienvenido a Coffee Time</h2>
+            <p>Donde cada taza cuenta una historia ☕✨</p>
+            <a href="menu.html" class="btn">Ver menú</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Sobre nosotros</h2>
+        <p>En <strong>Coffee Time</strong> creemos en el arte del buen café. 
+           Utilizamos granos seleccionados de las mejores fincas colombianas 
+           y los preparamos con pasión para brindarte un momento inolvidable.</p>
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80" alt="Taza de café" class="img-round">
+    </section>
+
+    <section class="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes dudas, comentarios o quieres reservar una mesa? Escríbenos aquí:</p>
+        <form class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="tunombre@ejemplo.com" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Coffee Time - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
